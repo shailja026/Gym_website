@@ -1,0 +1,72 @@
+.div{
+    margin-top: 40px;
+    height: 50vh;
+    width: 100%;
+
+}
+
+.footer{
+    margin-top: 40px;
+    height: 80%;
+    width: 100%;
+    background-color: black;
+    /* background-image: url("https://images.pexels.com/photos/1885795/pexels-photo-1885795.jpeg?auto=compress&cs=tinysrgb&w=400"); */
+    background-repeat: no-repeat;
+    opacity: 0.8;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: space-evenly;
+
+}
+.footer h3{
+    font-size: 30px;
+    margin: 20px;
+    color:rgb(231, 227, 227);
+}
+.links{
+    margin-left:30px ;
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+    color: white;
+
+}
+.links a{
+    text-decoration: none;
+    color: white;
+    font-size: 24px;
+    margin: 10px;
+}
+.social_info{
+    font-size: 40px;
+    
+    color: rgb(255, 226, 226);
+    
+}
+.icons{
+    width: 80%;
+    display: flex;
+    justify-content: space-evenly;
+    color: rgb(246, 233, 233);
+    font-size: 50px;
+    padding: 30px;
+    margin-left: -35px;
+}
+.partners h5{
+    font-size: 25px;
+    margin-top: 10px;
+    margin-left: 6px;
+     
+
+
+}
+.contact{
+   background-color: black;
+   height: 20%;
+   text-align: center;
+}
+.contact p{
+    font-size: 20px;
+
+}

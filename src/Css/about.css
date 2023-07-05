@@ -1,0 +1,54 @@
+ 
+
+.youtube {
+    position: relative;
+    height: 605px;
+    overflow: hidden;
+    width: 410px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* border: 8px solid red; */
+    border-radius: 10px;
+    z-index: 5;
+}
+
+.youtube::before {
+    content: "";
+
+    position: absolute;
+    width:200%;
+    height: 200%;
+    background-color: rgba(43, 245, 60, 0.845); 
+    box-shadow: 0 0 20px rgb(8, 8, 8);
+    animation: animate 4s linear infinite;
+}
+#about{
+    
+    width: 100%;
+    height: 100%;
+/* color: whitesmoke; */
+}
+
+.youtube::after {
+
+    content: "";
+    position: absolute;
+    width: 200%;
+    height: 200%;
+    inset: 5px;
+    margin-right: 15px;
+    background-color: rgb(122, 22, 175); 
+  
+    border-radius: 15px;
+    animation: animate 4s linear infinite;
+}
+
+@keyframes animate {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}  
